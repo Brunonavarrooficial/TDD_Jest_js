@@ -6,7 +6,7 @@
 
 ## Test-Driven Development
 
-<img src="https://dkrn4sk0rn31v.cloudfront.net/2019/11/04105020/img-tdd.png" width="400" height="400"/>
+<img src="https://dkrn4sk0rn31v.cloudfront.net/2019/11/04105020/img-tdd.png" width="600" height="520"/>
 
 ---
 
@@ -17,13 +17,10 @@
 
 ---
 
-```
+Instalação do pacote Jest 👇 <br>
+`npm install --save-dev jest`
 
-npm install --save-dev jest
-
-```
-
-Dependencias e Script no `**[package.json]**` 👇
+Dependencias e Script no **`[package.json]`** 👇
 
 ```
 "devDependencies": {
@@ -52,7 +49,7 @@ module.exports = { sum, inOneHour }
 > Usando mock em uma das funções no arquivo:
 > `my-code.test.js`
 
-mock em **Date.now**
+mock em **`Date.now`**
 
 função para teste incluindo zero:
 
